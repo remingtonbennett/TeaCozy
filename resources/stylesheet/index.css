@@ -6,7 +6,7 @@ html {
   opacity: 0.9;
   text-align: center;
 }
-
+/* Header/Navigation Section */
 header {
   display: flex;
   justify-content: space-between;
@@ -34,4 +34,27 @@ span {
 
 a {
   color: seashell;
+}
+
+/* Welcom Section */
+
+.welcome img {
+  z-index: 1;
+  height: 700px;
+  width: 1200px;
+}
+
+.welcome {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.mission {
+  display: block;
+  position: relative;
+  width: 100%;
+  bottom: 400px;
+  z-index: 1;
+  background-color: black;
 }
