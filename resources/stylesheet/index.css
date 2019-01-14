@@ -63,11 +63,11 @@ flex-wrap: wrap;
 
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .content img {
   padding: 10px 20px;
-  height:200px;
   width: 300px;
 }
 
@@ -77,4 +77,71 @@ flex-wrap: wrap;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+}
+
+/* Location Section */
+
+/* .locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location img {
+  height: 500px;
+  width: 1200px;
+} */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1100px;
+}
+
+div {
+  display: block;
+}
+
+.places {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 40px;
+  opacity: 1;
+  }
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 5px 20px;
+  position: relative;
+  top: 150px;
+}
+
+.east {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 5px 20px;
+  position: relative;
+  top: 150px;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 5px 20px;
+  position: relative;
+  top: 150px;
 }
