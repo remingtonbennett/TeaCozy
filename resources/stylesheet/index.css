@@ -134,3 +134,8 @@ width: 1100px;
   height: 250px;
   margin: 5px 20px;
 }
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
